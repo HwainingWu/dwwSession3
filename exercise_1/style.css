@@ -1,0 +1,64 @@
+/* Yellow background */
+.section {
+    background-color: #F4E4BC;
+    padding: 70px 90px 100px;
+    max-width: 1000px;
+    margin: 50px auto;
+    box-sizing: border-box
+}
+.section h1 {
+    font-size: 26px;
+    margin: 0 0 10px 0;
+}
+
+.section > p {
+    font-size: 14px;
+    max-width: 650px;
+    margin: 0 0 40px 0;
+}
+
+/* Three cards */
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.card{
+    width: 210px;
+    /* set a background color */
+    background-color: #FFFFFF;
+    /* internal padding all around */
+    padding: 7px;
+    /* add round corner */
+    border-radius: 12px;
+
+    font-family: Arial, sans-serif;
+}
+
+.card img{
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+}
+
+.card h2{
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.card p{
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+.card button{
+    background-color: #1398A0;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 6px;
+    padding: 12px 25px;
+    cursor: pointer;
+}
